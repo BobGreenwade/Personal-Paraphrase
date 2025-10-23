@@ -1,0 +1,16 @@
+{
+  "persona_resolution": {
+    "base_path": "persona",
+    "file_patterns": ["*.txt", "*.json"]
+  },
+  "chat_history": {
+    "path": "chat_history",
+    "filename_pattern": "{persona}_history.txt",
+    "scan_limit": 20
+  },
+  "llm": {
+    "endpoint": "http://localhost:5000/generate",  // Replace with your actual LLM endpoint
+    "model": "gpt-4",                              // Or whatever model you're hosting
+    "temperature": 0.7
+  }
+}
