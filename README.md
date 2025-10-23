@@ -2,7 +2,7 @@
 
 **Persona-driven editorial rewriter for AI agents and companion modules.**
 
-Personal Paraphrase transforms generic output into the stylistic voice of the AI's own persona—drawing from real descriptors, recent chat history, and emotional tone cues. It’s designed to be used by modules like Fact Check, DLI, and voice_reading.py, and can be extended to any system that benefits from rhythm-aware, persona-infused phrasing.
+Personal Paraphrase transforms generic output into the stylistic voice of the AI's own persona—drawing from real descriptors, recent chat history, and emotional tone cues. It’s designed to be used by modules like Fact Check or DLI, and can be extended to any system that benefits from rhythm-aware, persona-infused phrasing.
 
 ---
 
