@@ -55,6 +55,6 @@ Use configEditor.py to safely view, edit, and validate this file. It supports bo
 📜 License
 Licensed under the MIT License.
 
-✅ Status
-**Ready to go!**
+✅ Status   
+**Ready to go!**   
 Modular, persona-aware, and built for editorial integrity (if I do say so myself).
