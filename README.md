@@ -40,6 +40,8 @@ from paraphrase import paraphrase
 output = paraphrase("Original text here", persona="persona")
 ```
 
+---
+
 ⚙️ Configuration
 Settings are defined in config.json, including:
 - Persona resolution: Where to find descriptor files (e.g., persona/Draco.txt)
@@ -47,13 +49,19 @@ Settings are defined in config.json, including:
 - LLM settings: Endpoint, model, and temperature
 Use configEditor.py to safely view, edit, and validate this file. It supports both standalone use and modular import.
 
+---
+
 🧠 Editorial Principles
 - No presets: All paraphrasing is based on real persona descriptors and recent voice history.
 - Voice fidelity: Output reflects the AI’s rhythm, tone, and editorial nuance—not a generic rewording.
 - Fallback logic: If the LLM fails or returns unchanged output, the original text is used.
 
-📜 License
+---
+
+📜 License   
 Licensed under the MIT License.
+
+---
 
 ✅ Status   
 **Ready to go!**   
