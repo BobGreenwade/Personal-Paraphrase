@@ -32,6 +32,7 @@ The result is output that reflects the AI’s rhythm, wit, and editorial nuance.
 Modules that can benefit from Personal Paraphrase include:
 - Any companion or agent AI: Especially those with distinct personalities or editorial styles
 - Any "wrapper" module that generates text (such as Fact Check or Delusion Loop Interrupter)
+
 To integrate, simply import and call:
 ```
 from paraphrase import paraphrase
@@ -41,7 +42,7 @@ output = paraphrase("Original text here", persona="persona")
 
 ⚙️ Configuration
 Settings are defined in config.json, including:
-- Persona resolution: Where to find descriptor files (e.g., persona/greenwade.txt)
+- Persona resolution: Where to find descriptor files (e.g., persona/Draco.txt)
 - Chat history: Recent lines used to model voice
 - LLM settings: Endpoint, model, and temperature
 Use configEditor.py to safely view, edit, and validate this file. It supports both standalone use and modular import.
@@ -52,7 +53,7 @@ Use configEditor.py to safely view, edit, and validate this file. It supports bo
 - Fallback logic: If the LLM fails or returns unchanged output, the original text is used.
 
 📜 License
-Licensed under the MIT License. Future deployment may transition to MPL or Apache once source registries and editorial disclaimers are in place.
+Licensed under the MIT License.
 
 ✅ Status
 **Ready to go!**
